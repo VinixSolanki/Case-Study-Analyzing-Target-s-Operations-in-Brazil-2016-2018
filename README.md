@@ -92,9 +92,9 @@ As a data analyst/scientist at Target, your task is to analyze the dataset to ex
 
 ---
 
-## Evaluation Criteria (100 points)
+## Evaluation Criteria 
 
-### **Initial Exploration (15 points)**
+### **Initial Exploration**
 1. Check the structure & characteristics of the dataset.
    - **Answer:**
      - The dataset includes 8 CSV files covering multiple dimensions such as customers, orders, products, and payments. Each file provides essential attributes for analysis.
@@ -126,7 +126,7 @@ from analyzing.orders
        ```
      - Insights: There were **400+ unique cities** and **27 states** involved in placing orders during the given period.
 
-### **In-depth Exploration (15 points)**
+### **In-depth Exploration**
 1. Identify trends in the number of orders placed over the years.
    - **Answer:**
      - Using the query:  
@@ -170,7 +170,7 @@ from analyzing.orders
        ```
      - Insights: Most orders were placed during the afternoon (13-18 hrs), followed by night (19-23 hrs). Dawn (0-6 hrs) was the least active period.
 
-### **Evolution of E-commerce Orders in Brazil (10 points)**
+### **Evolution of E-commerce Orders in Brazil**
 1. Month-on-month number of orders placed in each state.
    - **Answer:**
      - Using the query:  
@@ -194,7 +194,7 @@ from analyzing.orders
        ```
      - Insights: State SP has the maximum number of customers, capturing nearly 40% of the customer base. States like RR and AP showed minimal engagement, indicating potential areas for growth and targeted campaigns.
 
-### **Impact on Economy (20 points)**
+### **Impact on Economy**
 1. Analyze money movement by looking at order prices, freight, and other factors.
    - **Answer:**
      - Using the query:  
@@ -335,7 +335,7 @@ from analyzing.orders
        ```
      - Insights: Efficient delivery practices in states like SP and RJ should be analyzed and replicated to improve logistics across all regions.
 
-### **Analysis Based on Payments (10 points)**
+### **Analysis Based on Payments**
 1. Month-on-month number of orders placed using different payment types.
    - **Answer:**
      - Using the query:  
@@ -363,7 +363,7 @@ from analyzing.orders
        ```
      - Insights: Single-installment payments are preferred, accounting for 80% of orders. This suggests a low dependency on credit, with customers opting for straightforward transactions.
 
-### **Actionable Insights & Recommendations (10 points)**
+### **Actionable Insights & Recommendations**
 Actionable Insights
 
 Marketing Focus
